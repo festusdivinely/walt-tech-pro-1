@@ -1,0 +1,23 @@
+{
+  "name": "walt-tech-pro",
+  "version": "1.0.0",
+  "description": "walt-tech landing page",
+  "main": "sever.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "festusdivinely",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2",
+    "nodemailer": "^6.7.8",
+    "nodemailer-mailgun-transport": "^2.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
